@@ -40,6 +40,11 @@ you can build from this cookbook.
 3. **It writes the code.** You run it on a cheap Raspberry Pi.
 4. **Meet or beat the champion** — each card has a target number in the Hall of Fame.
 
+**New here? Read this first.** [`essays/from-a-need-to-a-contract.md`](essays/from-a-need-to-a-contract.md)
+walks one *real* feature end to end — a caregiver's worry → eight recipe cards → the one that failed
+first → durable contracts — with diagrams and no code required. It's the fastest way to see *why* this
+works and *when* you'd use it.
+
 ## It's a friendly contest
 
 Every Recipe Card is a standing challenge. Build an implementation in any language on any

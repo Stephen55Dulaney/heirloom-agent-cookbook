@@ -57,5 +57,25 @@ Beat 4300 ms with both gates green and the belt changes hands. Bonus respect for
 
 ---
 
+## R-002 — Listen
+
+**Primary metric:** `time_to_silence_close_ms` (lower wins)
+**Gates:** `closes_on_silence`, `survives_clicks`, `allows_word_pause`
+
+### Current champion
+
+| Champion | time_to_silence_close_ms | closes_on_silence | survives_clicks | allows_word_pause | Held since |
+|---|---|---|---|---|---|
+| vad-decide-close (Mojo-built · Mac-verified, Day 112) | 1500 | ✅ | ✅ | ✅ | 2026-06-26 |
+
+This belt started with the *incumbent on the table* holding it: a fixed **8000 ms** window that
+recorded a flat 8 seconds every turn no matter when you stopped talking. The first challenger —
+a pure `decide_close()` decision function written by one machine and verified on another — beat
+it **5.3×**. Note the third gate: `allows_word_pause`. A submission that closes faster by cutting
+someone off mid-word **does not win**, however low its number. On this card, **dignity bounds the
+speed.** Beat 1500 ms with all three gates green and the belt is yours.
+
+---
+
 *Other cards (`memory`, `intake`, `dashboard`, `display`) are open and have no champion yet.
 Write the card, build the implementation, and be the first name on its board.*
