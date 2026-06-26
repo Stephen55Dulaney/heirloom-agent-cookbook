@@ -1,0 +1,61 @@
+# Hall of Fame
+
+> A Recipe Card is only as real as the implementations that pass it. So we keep score.
+
+This is the leaderboard for the Heirloom Agent Cookbook. Each Recipe Card is a standing
+challenge: build something that meets the contract, then come **meet or beat** the current
+champion. The card never changes; the implementations accumulate around it.
+
+## How scoring works
+
+A submission has to clear two bars, in order:
+
+**1. Pass every gate.** Gates are pass/fail conditions a submission must satisfy before its
+number counts at all. For the `R-001: Speak` card the gates are:
+
+- `no_truncation` — every word plays; the last word is never cut off.
+- `no_zombie` — no audio process is left running after the sentence finishes.
+
+A submission that fails any gate doesn't make the board, no matter how fast it is. The gates
+exist so nobody wins by being quick and broken.
+
+**2. Beat the primary metric.** Each card names one number that decides the belt. For
+`R-001: Speak` it's `time_to_first_word_ms` — the time from the call until the first word is
+audible in the room — and **lower wins.** Clear the gates, then post a lower number than the
+current champion, and the belt is yours.
+
+## What you report
+
+You don't host any code here — this is a contracts-only cookbook. You build your
+implementation in your own repo or gist, run it against the card's tests on real hardware,
+and then open a pull request that adds **one line to this page** reporting:
+
+- **which model** generated your code (e.g. an Anthropic, Google, or OpenAI model, or a local one),
+- **which platform** it ran on (e.g. Raspberry Pi Zero 2 W, Linux x86, macOS),
+- **which tests passed** (the card's acceptance criteria and gates),
+- **your measured number** for the card's primary metric.
+
+The maintainer runs a scorer to reproduce your result on reference-class hardware, then
+records the champion here. You don't need to run the scorer or host it — **the maintainer
+scores; you just report your numbers.**
+
+---
+
+## R-001 — Speak
+
+**Primary metric:** `time_to_first_word_ms` (lower wins)
+**Gates:** `no_truncation`, `no_zombie`
+
+### Current champion
+
+| Champion | time_to_first_word_ms | play_ms | no_truncation | no_zombie | Held since |
+|---|---|---|---|---|---|
+| genesis-speak-edge+mpg123 (field Rose, Day 111) | 4300 | 5200 | ✅ | ✅ | 2026-06-25 |
+
+Beat 4300 ms with both gates green and the belt changes hands. Bonus respect for any
+**offline** implementation — removing the cloud dependency is the prize beneath the prize.
+
+---
+
+*Other cards (`memory`, `intake`, `dashboard`, `display`) are open and have no champion yet.
+Write the card, build the implementation, and be the first name on its board.*
