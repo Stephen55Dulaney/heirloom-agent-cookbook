@@ -9,6 +9,24 @@ how fast it has to be, and what it must never do — with the honest scars from 
 before. The code is something a model writes *for you*, hosted in your own project, never in
 this repo.
 
+## Why "Heirloom"
+
+An heirloom is something you don't buy — you *inherit.* A thing made with care, kept across
+generations, handed down because it's worth keeping. It outlives the person who made it. That's
+the first meaning, and it's the promise: these agents are **built to outlive their maker.**
+
+But there's a second meaning, and it's why the name fits all the way down: **heirloom seeds.**
+Unlike the patented, locked hybrids that big agriculture sells, an heirloom seed is *open.* It
+stays alive only because people keep **growing it, saving it, and sharing it** — passed hand to
+hand, getting a little better each season, belonging to no one and everyone. You can't hoard an
+heirloom seed. **You keep it by giving it away.**
+
+That is exactly what this cookbook is. Each **recipe is an heirloom seed** — open, with no code
+locked inside, kept alive by the community that grows it. The code is just the crop: grown fresh
+on your own device, disposable, regrown next season from the same seed. *The recipe endures; the
+harvest is yours.* And the one who tends it all is the **Gardener** — because heirlooms aren't
+manufactured. They're **grown.**
+
 ## Who it's for
 
 People who are not programmers but want to build something real — a warm voice companion for
