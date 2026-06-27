@@ -77,5 +77,22 @@ speed.** Beat 1500 ms with all three gates green and the belt is yours.
 
 ---
 
+## R-003 — Converse
+
+**Primary metric:** `time_to_reply_ms` (lower wins)
+**Gates:** `doctrine_pass`, `no_fabrication`, `acknowledge_first`, `gate_actually_fires`
+
+### Current champion
+
+*None yet — be the first.* This is the **expert** card: the reply layer, where the Care Doctrine
+is enforced or violated at inference time. The gates are the hard floor — a submission must pass
+**100% of the doctrine fixtures** (never correct a reality, never fabricate, never name the
+forbidden thing, acknowledge before assisting, and *prove the gate fires* on a violating
+candidate). Only then does the speed contest begin. **Dignity bounds the speed:** a fast reply
+that fails a fixture does not count. Clear every fixture, post a `time_to_reply_ms`, and take the
+first belt on the hardest card in the cookbook.
+
+---
+
 *Other cards (`memory`, `intake`, `dashboard`, `display`) are open and have no champion yet.
 Write the card, build the implementation, and be the first name on its board.*

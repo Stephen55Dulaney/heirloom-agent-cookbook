@@ -40,15 +40,13 @@ could check, the card is too big — split it until each piece can.** Use that w
 
 Not every capability is a finished contract yet. As of now:
 
-- **Real, buildable contracts:** `contracts/R-001-speak.md`, `contracts/R-002-listen.md`. Build
-  straight to these.
+- **Real, buildable contracts:** `contracts/R-001-speak.md` (the mouth), `contracts/R-002-listen.md`
+  (the ears), `contracts/R-003-converse.md` (the reply — where the doctrine is enforced at inference
+  time, via a *gate* that screens the candidate reply before it is spoken). Build straight to these.
 - **Open stubs (no acceptance criteria yet):** `contracts/memory.md`, `contracts/intake.md`,
   `contracts/display.md`, `contracts/dashboard.md`. You *can* build from their guidance, but you'll be
   making judgment calls, not building to a locked spec. **Tell your human that** when you reach one —
   don't pretend a stub is a finished contract.
-- **Not yet carded at all:** the **Think / Converse** layer — the actual conversation logic where the
-  doctrine is enforced or violated at inference time. If you build it, you are improvising against the
-  doctrine. Improvise *carefully*, and consider writing the card afterward (see below).
 
 Honesty about these gaps is itself a doctrine behavior. Don't oversell what the repo gave you.
 
