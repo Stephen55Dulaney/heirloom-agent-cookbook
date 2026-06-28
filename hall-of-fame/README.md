@@ -110,5 +110,21 @@ cookbook's front-door dish.
 
 ---
 
-*Other cards (`memory`, `intake`, `dashboard`, `display`) are open and have no champion yet.
+## Memory — the second brain that makes a companion *yours*
+
+**Primary metric:** `recall_at_reboot_pct` (higher wins) — of the facts a person shared, the share recalled
+correctly and naturally after a full power cycle, with **zero** invented.
+**Gates:** `consent_before_capture`, `survives_reboot`, `no_confabulation`
+
+### Current champion
+
+*None yet — be the first.* The gate that defines this card is `no_confabulation`: a single invented fact
+disqualifies the run, however high the recall. Tell it ten facts, power-cycle the device, ask again — count
+what it recalls, and confirm it invented nothing. Clear the gates, post your `recall_at_reboot_pct`, and
+take the first belt on the card that decides whether a companion is a stranger or *yours.* (No hardware?
+The DIY cousin is [`recipes/second-brain-from-markdown.md`](../recipes/second-brain-from-markdown.md).)
+
+---
+
+*Other cards (`intake`, `dashboard`, `display`) are open and have no champion yet.
 Write the card, build the implementation, and be the first name on its board.*
