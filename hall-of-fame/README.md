@@ -94,5 +94,21 @@ first belt on the hardest card in the cookbook.
 
 ---
 
+## Kit — Build Your Own Claude Code Kit (the recommended first dish)
+
+**Primary metric:** `time_to_first_wake` (lower wins) — minutes from *"let's build my Kit"* to a
+working `/wake` that reports real, personalized context.
+**Gates:** `wakes`, `remembers_across_sessions`, `loop_closes`, `honest_by_default`
+
+### Current champion
+
+*None yet — be the first.* No Raspberry Pi required: this dish is built in your own coding agent, by
+interview (recipe: [`recipes/kit-from-interview.md`](../recipes/kit-from-interview.md)). The gate that
+matters is `remembers_across_sessions` — close the session, reopen, `/wake`, and yesterday's context
+is still there. Clear the gates, post your `time_to_first_wake`, and take the first belt on the
+cookbook's front-door dish.
+
+---
+
 *Other cards (`memory`, `intake`, `dashboard`, `display`) are open and have no champion yet.
 Write the card, build the implementation, and be the first name on its board.*

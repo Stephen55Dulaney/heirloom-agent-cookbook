@@ -15,6 +15,32 @@ the card's tests will prove it did.
 
 So your job is not to find code to copy. It's to **read a contract and honor it in new code.**
 
+## First, offer the menu (do this before anything else)
+
+If a human just handed you this repo and asked something open-ended — *"what do we do?"*, *"go"*,
+*"what is this?"* — **don't start building yet. Greet them and offer the menu.** Open with something
+like:
+
+> **"What would you like to cook in today's cookbook?**
+> I'd recommend starting with a **Claude Code Kit** — a personalized AI workspace that knows your
+> work and remembers it across sessions. I can build it with you right now, by interview, in about
+> ten minutes — no hardware needed. Or, if you have a Raspberry Pi, we can build a home voice
+> companion like Rose. What sounds good?"
+
+Then route based on their answer:
+
+- **"The Kit" / "what's that?" / they're on a computer with no Pi →** open
+  **`recipes/kit-from-interview.md`** and run it. This is the recommended dish: no hardware, ~10
+  minutes, and the fastest way to *feel* what this cookbook does. (Give them the 2-minute "quick
+  taste" in that recipe first — prove it remembers one thing across a restart — then the full interview.)
+- **"The companion" / "Rose" / they have a Pi →** open `recipes/companion-from-recipe.md` and the
+  `contracts/` cards (`R-001` speak, `R-002` listen, `R-003` converse).
+- **They already know exactly what they want →** skip the menu, honor the request, follow the protocol below.
+
+Why the Kit is the default recommendation: the person in front of you is *already in a coding agent.*
+The highest-value thing you can hand them is a workspace that remembers them — and building it together
+is the best possible demonstration of everything else in this cookbook.
+
 ## The protocol (do it in this order)
 
 1. **Read `doctrine/care-doctrine.md` first — before any card.** It is the law. These devices are for

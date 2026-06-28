@@ -9,6 +9,11 @@ how fast it has to be, and what it must never do — with the honest scars from 
 before. The code is something a model writes *for you*, hosted in your own project, never in
 this repo.
 
+> **New here, and on a computer (no Raspberry Pi)?** The recommended first dish is your own
+> **Claude Code Kit** — paste this repo into your coding agent, say *"build my Kit,"* and it
+> interviews you and builds a workspace that *remembers you* across sessions. No hardware, ~10
+> minutes. Recipe: [`recipes/kit-from-interview.md`](recipes/kit-from-interview.md).
+
 ## Why "Heirloom"
 
 An heirloom is something you don't buy — you *inherit.* A thing made with care, kept across
