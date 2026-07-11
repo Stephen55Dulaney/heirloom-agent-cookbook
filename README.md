@@ -80,6 +80,11 @@ A reader built his own AI companion in a weekend from cards like these. You can 
 Read the Care Doctrine, then read `R-001: Speak`. Pick a card, hand it to an AI, build it on a
 $15 board, and come put your name on the board.
 
+> **The hardest recipe on the planet:** when you're ready to build *whole software* with a brigade
+> of AI agents — a constitution, a model relay, small movements, and a cook who never tastes their
+> own dish — cook the **[Mole Poblano](recipes/mole-poblano.md)**: the slow-cooked autonomous
+> build. One unattended 56-hour run of this method shipped a real product to the field.
+
 **Come build.**
 
 ---
