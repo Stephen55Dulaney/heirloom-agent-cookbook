@@ -85,6 +85,10 @@ $15 board, and come put your name on the board.
 > own dish — cook the **[Mole Poblano](recipes/mole-poblano.md)**: the slow-cooked autonomous
 > build. One unattended 56-hour run of this method shipped a real product to the field.
 
+**New: [Techniques](techniques/README.md)** — the knife skills. Recipes are dishes; techniques
+are the daily moves that keep an agent alive across sessions: **wake → heartbeat → reflect →
+dream → sleep**. Five cards, each one a spec you can hand to your coding agent.
+
 **Come build.**
 
 ---
