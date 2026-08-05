@@ -37,6 +37,12 @@ They form one loop:
 | [**Dream**](dream.md) | *Reducing the stock* | Nightly: consolidate the day's captured thoughts into long-term memory |
 | [**Sleep**](sleep.md) | *Closing the kitchen* | The bookend: reflect, then dream, then lights out — so tomorrow's wake finds everything |
 
+## Beyond the daily loop
+
+| Technique | The kitchen move | What it does |
+|---|---|---|
+| [**Learnings Ledger**](learnings-ledger.md) | *The sauce that thickens* | One evidence-cited, confidence-scored file where hard-won patterns survive context death — fed by every `/reflect` |
+
 ## How to add these to your Kit
 
 If you built a Kit from [`recipes/kit-from-interview.md`](../recipes/kit-from-interview.md), you
