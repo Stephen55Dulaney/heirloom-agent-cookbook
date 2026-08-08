@@ -87,6 +87,31 @@ resistor, a breadboard. Any dev board qualifies.*
 
 ---
 
+## Test Inputs
+
+Run these on the bench, with a human watching a probe LED. Every one of them has a *visible*
+answer — that is the point of bring-up.
+
+- **Typical** — walk every exposed pin high then low, one at a time, announcing each over
+  serial. A person with a probe LED confirms each pin obeys.
+- **The trap (the pin that lies)** — command *every* pin low and look for the one still lit.
+  On the reference board there is one. A run that reports all pins good has not found it yet.
+- **The labels** — drive the pin by its printed board label, then by the raw chip number, and
+  record both columns. Where they disagree, the disagreement goes in the map.
+- **Edge — the power ceiling** — light as many pins at once as your planned peripherals need,
+  and keep going until the board browns out or you reach your stated budget. Write the number
+  you actually hit, not the number the datasheet promises.
+- **Edge — the port that moves** — unplug the board mid-session and replug it. Recovery must
+  be a documented step (list the live ports, reset from software), not a fingernail on a
+  button.
+- **Edge — under load** — if a motor or mechanism is in scope, run it against the real load,
+  not the unloaded horn. An actuator that spins freely and stalls under load is a fail.
+- **The handoff** — hand the document to someone who wasn't there. They connect, compile,
+  upload, and toggle one pin with no help from you. This is the criterion that decides the
+  card.
+
+---
+
 ## Known Hard Parts (the scars)
 
 From a real February 2026 bench session — three sketches, one board, every scar witnessed.
