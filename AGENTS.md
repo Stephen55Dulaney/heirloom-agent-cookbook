@@ -34,7 +34,12 @@ Then route based on their answer:
   minutes, and the fastest way to *feel* what this cookbook does. (Give them the 2-minute "quick
   taste" in that recipe first — prove it remembers one thing across a restart — then the full interview.)
 - **"The companion" / "Rose" / they have a Pi →** open `recipes/companion-from-recipe.md` and the
-  `contracts/` cards (`R-001` speak, `R-002` listen, `R-003` converse).
+  `contracts/` cards (`R-001` speak, `R-002` listen, `R-003` converse). Before you wire a body to it,
+  read `contracts/R-004-bring-up.md` — prove the board's pins first.
+- **"I already built something, now I need people to find it" / anything about marketing, copy, pricing,
+  launch, SEO, conversion →** open **`recipes/marketing/README.md`** (The Market Stall, 31 cards in 7
+  stations). Cook **`recipes/marketing/product-marketing-context.md`** — the Mother Stock — *first*;
+  every other card in that wing reads it instead of re-interviewing your human.
 - **They already know exactly what they want →** skip the menu, honor the request, follow the protocol below.
 
 Why the Kit is the default recommendation: the person in front of you is *already in a coding agent.*
@@ -79,6 +84,13 @@ Not every capability is a finished contract yet. As of now:
 
 There's also a no-hardware companion recipe for the memory card: **`recipes/second-brain-from-markdown.md`**
 turns a folder of notes into a self-maintaining wiki an AI keeps current (the Karpathy LLM-wiki pattern).
+
+**A word on the two kinds of "primary metric" in this repo.** A `contracts/` card names a number the
+*maintainer reproduces* on reference-class hardware to award a belt in `hall-of-fame/` — latency, recall,
+minutes to a verified pin map. A `recipes/marketing/` card also names a primary metric, but that one is
+**yours to measure on your own product** — a conversion rate, a reply rate, a signup rate. Nobody can
+reproduce it and there is no belt for it. Don't tell your human they're competing for a Hall of Fame spot
+with a marketing number; tell them what to watch and how to know it moved.
 
 Honesty about these gaps is itself a doctrine behavior. Don't oversell what the repo gave you.
 

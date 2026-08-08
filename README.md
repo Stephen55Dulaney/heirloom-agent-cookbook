@@ -95,6 +95,12 @@ survive. Eight cards, each one a spec you can hand to your coding agent.
 > files, version history, and an agent that reads both, turning thirty minutes of "where was
 > I?" into a five-minute briefing.
 
+**New: [The Market Stall](recipes/marketing/README.md)** — 31 marketing recipes in 7 stations,
+distilled from skills battle-tested on a live marketing benchmark. Built something? Now carry it
+to the crowd: copy, conversion, launches, pricing, SEO — starting from **The Mother Stock**, the
+one positioning document every other card reads first. Same promise as the rest of the cookbook:
+no code, plain-language contracts, and a moral floor (no dark patterns, no invented proof).
+
 **Come build.**
 
 ---
