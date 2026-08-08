@@ -90,6 +90,20 @@ draws from the stockpot instead of starting each sauce from scratch.
 4. **Check the criteria** — every card ends with checkboxes and one primary metric. Don't accept
    "done"; accept the boxes ticked.
 
+## About the primary metrics (they are not Hall of Fame numbers)
+
+This cookbook uses the phrase "primary metric" in two different ways, and the difference matters.
+
+A card in `contracts/` names a number the **maintainer reproduces** on reference-class hardware to
+award a belt in `hall-of-fame/` — time to first word, recall after reboot, minutes to a verified pin
+map. Same board, same conditions, one champion.
+
+A card in this stall names a number **you measure on your own product** — a conversion rate, a reply
+rate, a signup rate. It depends entirely on your audience, your offer, and your market. Nobody can
+reproduce it, so there is no belt for it and no leaderboard here. It exists so that "done" means
+*something moved*, not *the AI produced words*. Measure it before you change anything, change one
+thing, and measure again.
+
 ## The floor still holds
 
 The Care Doctrine (`doctrine/care-doctrine.md`) is this cookbook's moral floor, and it doesn't
