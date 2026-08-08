@@ -12,27 +12,36 @@
 ## Why techniques matter more than dishes
 
 Anyone can follow one recipe once. A kitchen that *keeps* cooking — day after day, without the
-head chef standing over it — runs on technique. The five below are the daily rhythm that keeps an
-agent alive across sessions: how it comes back from the dead each morning, how it keeps watch
-through the day, and how the day's experience becomes memory instead of evaporating at midnight.
+head chef standing over it — runs on technique. The seven below are the daily rhythm that keeps an
+agent alive across sessions: how it comes back from the dead each morning, how the day gets a
+plan and the plan gets an honest reckoning, how it keeps watch through the day, and how the
+day's experience becomes memory instead of evaporating at midnight.
 
 They form one loop:
 
 ```
-/wake  →  work the day (+ /heartbeat)  →  /reflect  →  /dream  →  /sleep
-   ↑                                                                │
-   └──────────────── tomorrow, it all comes back ───────────────────┘
+/wake → /ambition → work the day (+ /heartbeat) → /ambition-close → /reflect → /dream → /sleep
+   ↑                                                                                       │
+   └───────────────────────── tomorrow, it all comes back ─────────────────────────────────┘
 ```
 
-## The five daily techniques
+## The seven daily techniques
 
 | Technique | The kitchen move | What it does |
 |---|---|---|
 | [**Wake**](wake.md) | *Opening the kitchen* | Session start: re-read memory, check what happened overnight, come back to life in seconds |
+| [**Ambition**](ambition.md) | *Planning the menu* | Morning: 3–5 evidence-checkable intentions for the day, seeded by yesterday's close |
 | [**Heartbeat**](heartbeat.md) | *Watching the stove* | A cheap recurring pulse through the day — look ahead, surface only what's new or burning |
+| [**Ambition Close**](ambition-close.md) | *Counting the plates* | Evening: reconcile the plan against the day's actual evidence — HIT / PIVOT / MISS / BONUS |
 | [**Reflect**](reflect.md) | *Tasting as you go* | Session end: write down what happened, what worked, what broke — while it's fresh |
 | [**Dream**](dream.md) | *Reducing the stock* | Nightly: consolidate the day's captured thoughts into long-term memory |
 | [**Sleep**](sleep.md) | *Closing the kitchen* | The bookend: reflect, then dream, then lights out — so tomorrow's wake finds everything |
+
+## Beyond the daily loop
+
+| Technique | The kitchen move | What it does |
+|---|---|---|
+| [**Learnings Ledger**](learnings-ledger.md) | *The sauce that thickens* | One evidence-cited, confidence-scored file where hard-won patterns survive context death — fed by every `/reflect` |
 
 ## How to add these to your Kit
 

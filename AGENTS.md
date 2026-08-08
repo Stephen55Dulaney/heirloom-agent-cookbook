@@ -68,8 +68,10 @@ Not every capability is a finished contract yet. As of now:
 
 - **Real, buildable contracts:** `contracts/R-001-speak.md` (the mouth), `contracts/R-002-listen.md`
   (the ears), `contracts/R-003-converse.md` (the reply — where the doctrine is enforced at inference
-  time, via a *gate* that screens the candidate reply before it is spoken), and `contracts/memory.md`
-  (the second brain — knows the person across reboots, never confabulates). Build straight to these.
+  time, via a *gate* that screens the candidate reply before it is spoken), `contracts/memory.md`
+  (the second brain — knows the person across reboots, never confabulates), and
+  `contracts/R-004-bring-up.md` (the bench ritual — prove every pin on the board empirically before
+  you build a body on top of it). Build straight to these.
 - **Open stubs (no acceptance criteria yet):** `contracts/intake.md`, `contracts/display.md`,
   `contracts/dashboard.md`. You *can* build from their guidance, but you'll be making judgment calls,
   not building to a locked spec. **Tell your human that** when you reach one — don't pretend a stub is

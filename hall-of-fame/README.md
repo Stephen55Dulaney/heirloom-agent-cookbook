@@ -126,5 +126,23 @@ The DIY cousin is [`recipes/second-brain-from-markdown.md`](../recipes/second-br
 
 ---
 
+## R-004 — Bring-Up
+
+**Primary metric:** `minutes_to_verified_pinmap` (lower wins) — from bare board on the desk to a
+written, human-witnessed pin map.
+**Gates:** `no_phantom_pins`, `no_false_success`
+
+### Current champion
+
+*None yet — be the first.* This is the **easy** card and the one every hardware build stands on: prove
+what the board actually does before you build anything on top of it. The gates are about honesty, not
+speed — `no_phantom_pins` means an untested pin is recorded as untested, and `no_false_success` means the
+map never marks a pin working that no human watched work. A fast pin map that flatters the board loses to
+a slower one that tells the truth. The real bar is the last acceptance criterion: **a stranger, working
+from your document alone, connects, compiles, uploads, and toggles a pin unaided.** Clear the gates, post
+your `minutes_to_verified_pinmap`, and take the first belt.
+
+---
+
 *Other cards (`intake`, `dashboard`, `display`) are open and have no champion yet.
 Write the card, build the implementation, and be the first name on its board.*
