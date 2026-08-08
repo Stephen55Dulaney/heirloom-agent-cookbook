@@ -4,9 +4,9 @@
 > harvest out to the crowd, hand to hand, and telling its story honestly enough that people reach
 > for it.
 
-This wing of the cookbook holds **31 recipe cards for marketing a real product** — distilled from
-skills battle-tested on a live marketing benchmark, where frontier models cooked from these exact
-instructions and were scored on what came out.
+This wing of the cookbook holds **31 recipe cards for marketing a real product** — written for a
+marketing benchmark where frontier models cooked from these exact instructions and were scored on
+what came out. (Full provenance at the bottom: **[Where these came from](#where-these-came-from)**.)
 Like every card in this cookbook, they contain **no code**. Each is a plain-language contract:
 what the work must do, what the AI must ask you first, the method that makes it good, how you
 know it worked, and the lines it must never cross. Paste a card into Claude Code, Codex, or any
@@ -103,6 +103,31 @@ rate, a signup rate. It depends entirely on your audience, your offer, and your 
 reproduce it, so there is no belt for it and no leaderboard here. It exists so that "done" means
 *something moved*, not *the AI produced words*. Measure it before you change anything, change one
 thing, and measure again.
+
+## Where these came from
+
+Honest provenance, because this cookbook asks it of every card.
+
+**The cards are mine, written by hand.** I wrote all 31 of them. What they distill is the working
+knowledge of open marketing skills that are **publicly available in other open repositories** — the
+craft was already out in the world; the contribution here is the cookbook form: one card per job,
+plain language, acceptance criteria you can check, one metric, and bright lines that hold. They are
+open source, MIT, same as everything else in this repo. Take them.
+
+**They were forged against a benchmark.** These aren't imagined best practices. They were written as
+the instructions in a marketing benchmark I ran — frontier models cooked from these exact cards, and
+the output was scored. A card that produced weak work got rewritten. That's why every one of them
+ends in criteria instead of advice.
+
+**What is deliberately not here: the benchmark harness.** The system that runs the benchmark and
+scores new models against these cards is a separate build, and it is not in this repo. Not now,
+maybe not ever. So be clear-eyed about what you're getting: **the instructions that scored well, not
+the scoreboard that proved it.** If you want to know whether a card works for *your* product, you
+run it and watch your own number — which is exactly what the primary metric on each card is for.
+
+**No proprietary material.** Nothing in this wing is anyone's confidential work product — not a
+client's, not an employer's. If you believe a card here owes credit to a source I've failed to name,
+open an issue and I'll fix it.
 
 ## The floor still holds
 
