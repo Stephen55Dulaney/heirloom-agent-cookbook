@@ -5,8 +5,8 @@
 > for it.
 
 This wing of the cookbook holds **31 recipe cards for marketing a real product** — written for a
-marketing benchmark where frontier models cooked from these exact instructions and were scored on
-what came out. (Full provenance at the bottom: **[Where these came from](#where-these-came-from)**.)
+marketing benchmark at Merge, where frontier models cooked from these exact instructions and were
+scored on what came out. (Full provenance at the bottom: **[Where these came from](#where-these-came-from)**.)
 Like every card in this cookbook, they contain **no code**. Each is a plain-language contract:
 what the work must do, what the AI must ask you first, the method that makes it good, how you
 know it worked, and the lines it must never cross. Paste a card into Claude Code, Codex, or any
@@ -115,9 +115,9 @@ plain language, acceptance criteria you can check, one metric, and bright lines 
 open source, MIT, same as everything else in this repo. Take them.
 
 **They were forged against a benchmark.** These aren't imagined best practices. They were written as
-the instructions in a marketing benchmark I ran — frontier models cooked from these exact cards, and
-the output was scored. A card that produced weak work got rewritten. That's why every one of them
-ends in criteria instead of advice.
+the instructions in a marketing benchmark I ran at **Merge** — frontier models cooked from these
+exact cards, and the output was scored. A card that produced weak work got rewritten. That's why
+every one of them ends in criteria instead of advice.
 
 **What is deliberately not here: the benchmark harness.** The system that runs the benchmark and
 scores new models against these cards is a separate build, and it is not in this repo. Not now,
