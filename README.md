@@ -96,7 +96,7 @@ survive. Eight cards, each one a spec you can hand to your coding agent.
 > I?" into a five-minute briefing.
 
 > **New dish — [A Storefront Assistant That Shows Its Work](recipes/storefront-assistant.md)**:
-> *mise en place* for agents. Everything in its place before the heat goes on — you write down how
+> **verification-first architecture** — *mise en place* for agents. Everything in its place before the heat goes on — you write down how
 > you will know it worked **before** you write the thing. Seven steps for an assistant that helps
 > someone who does not yet know what to search for, on any catalog of parts that must be chosen
 > together. Hard constraints before similarity, readiness computed instead of guessed, propose but
