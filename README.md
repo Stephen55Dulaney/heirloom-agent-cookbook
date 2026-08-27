@@ -95,6 +95,14 @@ survive. Eight cards, each one a spec you can hand to your coding agent.
 > files, version history, and an agent that reads both, turning thirty minutes of "where was
 > I?" into a five-minute briefing.
 
+> **New dish — [A Storefront Assistant That Shows Its Work](recipes/storefront-assistant.md)**:
+> *mise en place* for agents. Everything in its place before the heat goes on — you write down how
+> you will know it worked **before** you write the thing. Seven steps for an assistant that helps
+> someone who does not yet know what to search for, on any catalog of parts that must be chosen
+> together. Hard constraints before similarity, readiness computed instead of guessed, propose but
+> never execute, and the receipts on screen. Includes the scars: a filter that existed and was
+> never set, a gate nobody had watched fail, and a red test that was wrong about working code.
+
 **New: [The Market Stall](recipes/marketing/README.md)** — 31 marketing recipes in 7 stations,
 distilled from skills battle-tested on a live marketing benchmark. Built something? Now carry it
 to the crowd: copy, conversion, launches, pricing, SEO — starting from **The Mother Stock**, the
