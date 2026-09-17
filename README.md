@@ -1,5 +1,11 @@
 # Heirloom Agent Cookbook
 
+[![Start free Academy Day 1](https://img.shields.io/badge/Academy-Start%20free%20Day%201-0A66C2)](https://academy.quantumdynamx.com)
+
+**[Start free Academy Day 1 →](https://academy.quantumdynamx.com)**  
+Free Archimedes session, no credit card. Soft next step after the win: Daily Ambition $99.  
+Also: [asthecloudturns.com](https://asthecloudturns.com/)
+
 > *Agents built to live at home, and to outlive their maker.*
 
 This is a cookbook of tested **recipes** for building real AI devices — and it contains **no
