@@ -115,6 +115,12 @@ to the crowd: copy, conversion, launches, pricing, SEO — starting from **The M
 one positioning document every other card reads first. Same promise as the rest of the cookbook:
 no code, plain-language contracts, and a moral floor (no dark patterns, no invented proof).
 
+**New: [The Edit Bay](recipes/video/README.md)**: four video recipes, from a topic to a private draft
+waiting for a human to press Publish. A package before you film, a walkthrough from a phone video with
+slides built from your own words, animated B-roll timed to what you say (the technique credited to Bart
+Slodyczka), and a Short from a raw clip with a privacy check. The line through all four: *the person
+narrates; the machine never speaks for them and never presses Publish.*
+
 **Come build.**
 
 ---
